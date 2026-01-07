@@ -113,7 +113,7 @@ Configure inbound rules:
 ### Step 6: Access the Website Publicly
 
 1. Copy the EC2 **Public IPv4 address**.
-2. Open a browser and visit: http://<EC2-Public-IPv4>
+2. Open a browser and visit
 
 3. Verify the website loads successfully.
 
