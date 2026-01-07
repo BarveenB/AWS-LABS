@@ -1,6 +1,6 @@
 #  Amazon EBS Volumes & Snapshots on EC2 
 
-This repository documents a **hands-on AWS Elastic Block Store (EBS)** project using a **Windows EC2 instance**.  The project focuses on **persistent storage**, **disk initialization**, and **data backup & recovery using EBS snapshots**.
+This repository documents a **hands-on AWS Elastic Block Store (EBS)** project using a **Windows EC2 instance**.  The project focuses on **persistent storage**, **disk initialization**, and **data backup & recovery using EBS snapshots**
 
 
 
