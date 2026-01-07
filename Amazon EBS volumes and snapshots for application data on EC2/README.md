@@ -29,7 +29,7 @@ Point-in-time backups of EBS volumes used for data recovery and disaster protect
 
 
 
-##  Data Flow (End-User Perspective)
+##  Data Flow 
 
 1. Application writes data to the attached EBS volume  
 2. Data is stored persistently on the EBS volume  
