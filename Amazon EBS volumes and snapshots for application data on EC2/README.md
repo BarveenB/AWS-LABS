@@ -105,12 +105,7 @@ Attach the restored volume and verify that data is successfully recovered.
 
 
 
-##  Key Learnings
 
-- Creating and attaching EBS volumes to EC2  
-- Initializing and formatting disks on Windows  
-- Creating and restoring EBS snapshots  
-- Implementing data durability and recovery strategies in AWS  
 
 
 
