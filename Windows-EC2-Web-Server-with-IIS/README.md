@@ -123,15 +123,7 @@ Configure inbound rules:
 The website is successfully hosted on a Windows EC2 instance and is publicly accessible
 via the EC2 public IPv4 address using IIS.
 
----
 
-## Key Learnings
-
-- Launching and managing Windows EC2 instances
-- Secure RDP access using key pairs
-- IIS Web Server installation and configuration
-- Security Group best practices
-- Hosting static websites on AWS using Windows servers
 
 
 
