@@ -20,7 +20,7 @@ This repository documents the setup and deployment of a **shared static website 
 
 
 
-## 🧱 Architecture Components
+##  Architecture Components
 
 ### Amazon EC2 (Amazon Linux)
 Provides virtual Linux servers to host and serve website content.
@@ -104,12 +104,12 @@ Inbound rules:
 
 ### Step 4: Mount EFS on EC2 Instance 1
 
-![EFS Mounted](images/efs-mounted-instances-1.png)
+![EFS Mounted](images/efs-mounted-instance-1.png)
 
 
 ### Step 5: Mount EFS on EC2 Instance 2
 
-![EFS Mounted](images/efs-mounted-instances-2.png)
+![EFS Mounted](images/efs-mounted-instance-2.png)
 
 ### Step 6: Deploy Website Content Using Git
 
