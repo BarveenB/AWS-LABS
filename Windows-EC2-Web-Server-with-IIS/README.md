@@ -1,9 +1,6 @@
 # Host a Website on Windows EC2 using IIS
 
-This repository documents the setup and deployment of a static website hosted on a
-**Windows EC2 instance** using **Internet Information Services (IIS)** on Amazon Web Services.
-The project focuses on Windows-based server management, secure remote access, and
-basic web hosting fundamentals in the AWS cloud.
+This repository documents the setup and deployment of a static website hosted on a **Windows EC2 instance** using **Internet Information Services (IIS)** on Amazon Web Services. The project focuses on Windows-based server management, secure remote access, and basic web hosting fundamentals in the AWS cloud.
 
 ---
 
