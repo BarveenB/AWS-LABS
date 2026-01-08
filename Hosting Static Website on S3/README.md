@@ -62,6 +62,7 @@ Public access is enabled at the bucket level to allow users to view website file
 
 ![Create S3 Bucket](images/create-bucket.png)
 
+
 - Open the AWS Management Console  
 - Navigate to **S3 → Create bucket**  
 - Enter a globally unique bucket name  
@@ -74,6 +75,7 @@ Public access is enabled at the bucket level to allow users to view website file
 
 ![Upload Files](images/upload-files.png)
 
+
 - Upload:
   - `index.html`
   - `style.css`
@@ -83,7 +85,8 @@ Public access is enabled at the bucket level to allow users to view website file
 
 ### Step 3: Enable Static Website Hosting
 
-![Enable Static Website Hosting](images/tatic-website-hosting.png)
+![Enable Static Website Hosting](images/static-website-hosting.png)
+
 
 - Open the bucket → **Properties**  
 - Enable **Static website hosting**  
@@ -96,6 +99,7 @@ Public access is enabled at the bucket level to allow users to view website file
 ### Step 4: Access the Website Publicly
 
 ![Website Output](images/website-output.png)
+
 
 - Copy the **S3 website endpoint URL**  
 - Open the URL in a web browser  
