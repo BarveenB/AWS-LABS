@@ -1,0 +1,136 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #f0f4f8;
+    color: #333;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #650b5c, #650b5c);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    animation: fadeInDown 1s ease;
+}
+
+header p {
+    font-size: 1.2rem;
+    animation: fadeInDown 1.5s ease;
+}
+
+header nav {
+    margin-top: 1rem;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+header nav a:hover {
+    color: #63a4cd;
+    transform: scale(1.1);
+}
+
+/* Sections */
+section {
+    padding: 3rem 1rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+section:nth-of-type(1) { animation-delay: 0.2s; }
+section:nth-of-type(2) { animation-delay: 0.4s; }
+section:nth-of-type(3) { animation-delay: 0.6s; }
+section:nth-of-type(4) { animation-delay: 0.8s; }
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #650b5c;
+}
+
+/* Skills list */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    padding: 0.3rem 0;
+    transition: transform 0.3s, color 0.3s;
+}
+
+ul li:hover {
+    color: #4CAF50;
+    transform: translateX(10px);
+}
+
+/* Project Cards */
+.project {
+    border: 1px solid #ddd;
+    padding: 1.2rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    background: #f9f9f9;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #650b5c;
+    color: white;
+    margin-top: 2rem;
+    animation: fadeInUp 1s ease;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
