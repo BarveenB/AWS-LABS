@@ -38,7 +38,7 @@ This separation ensures that logs are stored safely without interfering with pri
 4.Each log entry includes details like requester IP, request type, object name, and response status.
 
 
-![S3 Server Access Logging Architecture](images/enable-server-logging.png)
+![S3 Server Access Logging Architecture](images/enable-server-access-logging.png)
 
 ---
 
