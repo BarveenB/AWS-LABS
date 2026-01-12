@@ -38,14 +38,14 @@ When trying to upload files from the EC2 instance to the S3 bucket, the operatio
 
 ### Step 3: Create IAM Role and attach policy
 
--An IAM Role was created to allow the EC2 instance to access Amazon S3.
--The AWS managed policy AmazonS3FullAccess was attached to the IAM Role.
+1.An IAM Role was created to allow the EC2 instance to access Amazon S3.
+2.The AWS managed policy AmazonS3FullAccess was attached to the IAM Role.
 
 ## Permissions Granted
-List buckets
-Upload objects
-Download objects
-Delete objects
+1.List buckets
+2.Upload objects
+3.Download objects
+4.Delete objects
 
 ![IAM Role Created](images/s3-full-access.png)
 
