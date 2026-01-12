@@ -36,10 +36,16 @@ When trying to upload files from the EC2 instance to the S3 bucket, the operatio
 
 ---
 
-### Step 3: Create IAM Role and attach policy
+### Step 3: Create IAM Role and Attach Policy
 
-1.An IAM Role was created to allow the EC2 instance to access Amazon S3.
-2.The AWS managed policy AmazonS3FullAccess was attached to the IAM Role.
+An IAM Role was created to allow the EC2 instance to securely access Amazon S3.
+
+#### Steps:
+1. Create a new IAM Role  
+2. Select **AWS service** as the trusted entity  
+3. Choose **EC2** as the use case  
+4. Attach the AWS managed policy **AmazonS3FullAccess**  
+5. Complete the role creation 
 
 ![IAM Role Created](images/s3-full-access.png)
 
@@ -47,11 +53,12 @@ When trying to upload files from the EC2 instance to the S3 bucket, the operatio
 
 ### Step 4: Attach IAM Role to EC2 Instance
 
-The IAM Role was attached to the running EC2 instance.
-Steps:
-1.Select EC2 instance
-2.Modify IAM Role
-3.Attach newly created role
+The IAM Role was attached to the running EC2 instance to allow secure access to Amazon S3.
+
+#### Steps:
+1. Select the EC2 instance  
+2. Click **Actions → Security → Modify IAM role**  
+3. Attach the newly created IAM Role 
 
 ![IAM Role Created](images/attach-role-ec2.png)
 
@@ -59,11 +66,14 @@ Steps:
 
 ### Step 5: Upload Data Successfully
 
-After attaching the IAM Role, the upload to the S3 bucket was retried and completed successfully.
-✅ No access keys
-✅ No secret keys
-✅ Secure role-based access
+After attaching the IAM Role, the upload to the Amazon S3 bucket was retried and completed successfully.
 
+#### Outcome:
+- ✅ No access keys used  
+- ✅ No secret keys used  
+- ✅ Secure, role-based access enabled
+
+  
 ![IAM Role Created](images/upload-data-successfully.png)
 
 
