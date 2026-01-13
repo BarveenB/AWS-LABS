@@ -7,7 +7,7 @@ It shows how internet access is managed securely using **Internet Gateway** and 
 
 ##  Architecture Diagram
 
-![VPC Architecture](images/architecture-diagram.png)
+![VPC Architecture](images/architecture-daigram.png)
 
 
 ## Implementation Steps
