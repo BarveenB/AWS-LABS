@@ -47,7 +47,7 @@ AWS **Transit Gateway (TGW)** is a fully managed networking service that enables
 4. Click **Create attachment**
 
 
-![Transit Gateway](images/tgw-attachments.png)
+![Transit Gateway](images/tgw-attachements.png)
 
 
 ---
