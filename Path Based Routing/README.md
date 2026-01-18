@@ -48,7 +48,7 @@ It demonstrates **Path-Based Routing** using an **AWS Application Load Balancer 
 Create listener rules to route traffic based on URL path:
 
 - **Path:** `/shop/*`  
-  → Forward to **Shop Group**
+  → Forward to **Shop Target Group**
 
 - **Path:** `/blog/*`  
   → Forward to **Blog Target Group**
