@@ -25,7 +25,7 @@ It demonstrates **Path-Based Routing** using an **AWS Application Load Balancer 
 
 ### Step 2: Create Target Groups
 - Create separate target groups for each service:
-  - **E-Commerce Target Group**
+  - **Shop Target Group**
   - **Blog Target Group**
   - **API Target Group**
 - Protocol: HTTP  
@@ -49,7 +49,7 @@ It demonstrates **Path-Based Routing** using an **AWS Application Load Balancer 
 Create listener rules to route traffic based on URL path:
 
 - **Path:** `/shop/*`  
-  → Forward to **E-Commerce Target Group**
+  → Forward to **Shop Group**
 
 - **Path:** `/blog/*`  
   → Forward to **Blog Target Group**
