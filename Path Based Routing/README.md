@@ -1,6 +1,5 @@
 #  Application Load Balancer – Path-Based Routing
 
-##  Project Overview
 It demonstrates **Path-Based Routing** using an **AWS Application Load Balancer (ALB)**. Incoming client requests are routed to different backend server groups based on the **URL path**. This approach allows multiple applications or services to run behind a single load balancer efficiently.
 
 ---
