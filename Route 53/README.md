@@ -43,7 +43,7 @@ It provides secure and reliable internal DNS resolution, enabling EC2 instances 
 ### Step 3: Create DNS Records
 
 **Record for Server 1**
-- Record name: `server1.barveen.com
+- Record name: `server1.barveen.com`
 - Record type: `A`
 - Value: *Private IP address of Server 1*
 
@@ -61,7 +61,7 @@ It provides secure and reliable internal DNS resolution, enabling EC2 instances 
 ### Step 4: Test DNS Resolution from Server 1
 
 Connect to **Server 1** and verify internal DNS resolution by accessing Server 2 using its private DNS name:
-   - curl http://server2.barveen.com
+   - curl server2.barveen.com
 
 ![Route 53](images/output.png)
 
